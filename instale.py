@@ -41,6 +41,9 @@ system("cd MITMf && git submodule init && git submodule update --recursive")
 system("clear")
 print('abrindo o mitmf :\n')
 system("clear")
+system("cd MITMf")
+system("ls")
 system("python mitmf.py --help")
 
+#tudo certo #
 
